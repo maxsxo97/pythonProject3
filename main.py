@@ -57,9 +57,9 @@ class TestConverter(unittest.TestCase):
 
     def test_KG_TO_G(self):
         # Arrange
-        input = 3
+        input = 2
         ct = Converter.ConvertType.KG_TO_G
-        expected = 3000
+        expected = 2000
         # Act
         result = Converter.convert(ct, input)
         # Assert
